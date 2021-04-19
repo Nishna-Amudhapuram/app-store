@@ -1,0 +1,153 @@
+print("*********** Welcome to mini app store ***********")
+L1 = ["1. Display apps",
+      "2. Add apps to my cart",
+      "3. Delete an apps from the cart",
+      "4. Checkout",
+      "5. Exit"]
+print(L1)
+L2 = {"Weather channel": "$1.99",
+       "Bubble shooter": "$0.99",
+       "Gallery Pro": "$1.09",
+       "Scanner Pro": "$2.99",
+       "Voice Recorder": "$3.99",
+       "Peak Finder": "$4.99"}
+YourCart = []
+a1 = input("Enter option: ")
+if a1 == L1[0]:
+    print(L2)
+elif a1 == L1[1]:
+    name = input("Enter app name to add to cart: ")
+    print(name)
+    YourCart.append(name)
+    print(YourCart)
+    print(L1)
+elif a1 == L1[2]:
+    name1 = input("Enter app name to delete from the cart: ")
+    print(name1)
+    print("The app is deleted from the cart")
+    YourCart.remove(name1)
+    print(YourCart)
+    print(L1)
+elif a1 == L1[3]:
+    print(YourCart)
+    print(L1)
+elif a1 == L1[4]:
+    print("Thanks for Shopping with us")
+else:
+    print("Please enter valid option")
+a2 = input("Enter option: ")
+if a2 == L1[0]:
+    print(L2)
+elif a2 == L1[1]:
+    name = input("Enter app name to add to cart: ")
+    print(name)
+    YourCart.append(name)
+    print(YourCart)
+    print(L1)
+elif a2 == L1[2]:
+    name1 = input("Enter app name to delete from the cart: ")
+    print(name1)
+    print("The app is deleted from the cart")
+    YourCart.remove(name1)
+    print(YourCart)
+    print(L1)
+elif a2 == L1[3]:
+    print(YourCart)
+    print(L1)
+elif a2 == L1[4]:
+    print("Thanks for Shopping with us")
+else:
+    print("Please enter valid option")
+a3 = input("Enter option: ")
+if a3 == L1[0]:
+    print(L2)
+elif a3 == L1[1]:
+    name = input("Enter app name to add to cart: ")
+    print(name)
+    YourCart.append(name)
+    print(YourCart)
+    print(L1)
+elif a3 == L1[2]:
+    name1 = input("Enter app name to delete from the cart: ")
+    print(name1)
+    print("The app is deleted from the cart")
+    YourCart.remove(name1)
+    print(YourCart)
+    print(L1)
+elif a3 == L1[3]:
+    print(YourCart)
+    print(L1)
+elif a3 == L1[4]:
+    print("Thanks for Shopping with us")
+else:
+    print("Please enter valid option")
+a4 = input("Enter option: ")
+if a4 == L1[0]:
+    print(L2)
+elif a4 == L1[1]:
+    name = input("Enter app name to add to cart: ")
+    print(name)
+    YourCart.append(name)
+    print(YourCart)
+    print(L1)
+elif a4 == L1[2]:
+    name1 = input("Enter app name to delete from the cart: ")
+    print(name1)
+    print("The app is deleted from the cart")
+    YourCart.remove(name1)
+    print(YourCart)
+    print(L1)
+elif a4 == L1[3]:
+    print(YourCart)
+    print(L1)
+elif a4 == L1[4]:
+    print("Thanks for Shopping with us")
+else:
+    print("Please enter valid option")
+a5 = input("Enter option: ")
+if a5 == L1[0]:
+    print(L2)
+elif a5 == L1[1]:
+    name = input("Enter app name to add to cart: ")
+    print(name)
+    YourCart.append(name)
+    print(YourCart)
+    print(L1)
+elif a5 == L1[2]:
+    name1 = input("Enter app name to delete from the cart: ")
+    print(name1)
+    print("The app is deleted from the cart")
+    YourCart.remove(name1)
+    print(YourCart)
+    print(L1)
+elif a5 == L1[3]:
+    print(YourCart)
+    print(L1)
+elif a5 == L1[4]:
+    print("Thanks for Shopping with us")
+else:
+    print("Please enter valid option")
+a6 = input("Enter option: ")
+if a6 == L1[0]:
+    print(L2)
+elif a6 == L1[1]:
+    name = input("Enter app name to add to cart: ")
+    print(name)
+    YourCart.append(name)
+    print(YourCart)
+    print(L1)
+elif a6 == L1[2]:
+    name1 = input("Enter app name to delete from the cart: ")
+    print(name1)
+    print("The app is deleted from the cart")
+    YourCart.remove(name1)
+    print(YourCart)
+    print(L1)
+elif a6 == L1[3]:
+    print(YourCart)
+    print(L1)
+elif a6 == L1[4]:
+    print("Thanks for Shopping with us")
+else:
+    print("Please enter valid option")
+    
